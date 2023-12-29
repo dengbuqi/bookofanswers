@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>The Book of Answers</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <button class="refresh-button" onclick="updateText()">
+            <span>⟳</span>
+        </button>
+        <p id="content"></p>
+        <button id="answerButton" class="button"></button>
+        <div class="custom-select">
+            <label for="language" class="select-label">🌐</label>
+            <select id="language" onchange="changeLanguage()">
+                <option value="zh">中文</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+    </div>
+    <script src="js/answersList.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
