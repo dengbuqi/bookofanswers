@@ -1,11 +1,11 @@
 const languageText = {
     en: {
         buttonText: 'Get Answer',
-        answerText: `When you're uncertain, ask the Book of Answers...`
+        answerText: `When you're uncertain, \n ask the Book of Answers...`
     },
     zh: {
         buttonText: '获取答案',
-        answerText: '如果你不确定，请问答案之书...'
+        answerText: `如果你不确定， \n 请问答案之书...`
     }
 };
 
