@@ -13,6 +13,25 @@ body {
     height: 100vh;
 }
 
+.title-banner {
+    background-color: #ffffff;
+    color: #550707;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.title-banner h1 {
+    font-size: 36px;
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+
+.title-banner p {
+    font-size: 18px;
+    margin: 0;
+}
+
+
 .container {
     width: 80%;
     background-color: #fff;
@@ -23,7 +42,7 @@ body {
 }
 
 .refresh-button {
-    margin-left: auto;
+    margin-right: auto;
     background-color: #ffffff;
     color: #000000;
     border: none;

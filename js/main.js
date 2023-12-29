@@ -1,9 +1,11 @@
 const languageText = {
     en: {
+        titleText: 'The Book of Answers',
         buttonText: 'Get Answer',
         answerText: `When you're uncertain, \n ask the Book of Answers...`
     },
     zh: {
+        titleText: '答案之书',
         buttonText: '获取答案',
         answerText: `如果你不确定， \n 请问答案之书...`
     }
@@ -20,9 +22,13 @@ function getRandomAnswer() {
 
 function updateText() {
     const content = document.getElementById('content');
-    const button = document.getElementById('answerButton');
+    const button = document.getElementById('answerButton');h1Title
+    const title = document.getElementById('h1Title');
+
     content.textContent = languageText[currentLanguage].answerText;
     button.textContent = languageText[currentLanguage].buttonText;
+    title.textContent = languageText[currentLanguage].titleText;
+
 }
 
 function changeLanguage() {
